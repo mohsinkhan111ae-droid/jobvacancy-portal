@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Vacancy Portal</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+            color: #333;
+        }
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            color: #222;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .job-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px;
+        }
+        .job-card {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            margin: 15px;
+            padding: 25px;
+            width: 270px;
+            text-align: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .job-card:hover {
+            transform: translateY(-7px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+        }
+        .job-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 12px;
+        }
+        .job-salary {
+            font-size: 19px;
+            color: #28a745;
+            margin-bottom: 18px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 6px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            transition: background 0.3s;
+        }
+        .btn-pdf {
+            background: #ff5722;
+        }
+        .btn-pdf:hover {
+            background: #e64a19;
+        }
+        .btn-info {
+            background: #2196F3;
+        }
+        .btn-info:hover {
+            background: #1976D2;
+        }
+    </style>
+    <script>
+        function showInfo(job) {
+            alert("📢 More info about " + job + " job will be available soon!");
+        }
+    </script>
+</head>
+<body>
+    <header>💼 Job Vacancy Portal 💼</header>
+    <div class="job-container">
+
+        <div class="job-card">
+            <div class="job-title">💼 Accountant</div>
+            <div class="job-salary">💰 Salary: ₹31000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Accountant')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Electrician</div>
+            <div class="job-salary">💰 Salary: ₹17000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Electrician')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 District Sales Manager</div>
+            <div class="job-salary">💰 Salary: ₹26000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('District Sales Manager')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Back Office Executive</div>
+            <div class="job-salary">💰 Salary: ₹35000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Back Office Executive')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Front Office Executive</div>
+            <div class="job-salary">💰 Salary: ₹14000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Front Office Executive')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 BPO Telecaller</div>
+            <div class="job-salary">💰 Salary: ₹20000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('BPO Telecaller')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Telecaller</div>
+            <div class="job-salary">💰 Salary: ₹33000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Telecaller')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Tailor</div>
+            <div class="job-salary">💰 Salary: ₹13000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Tailor')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 B.Tech Engineer</div>
+            <div class="job-salary">💰 Salary: ₹16000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('B.Tech Engineer')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Mechanical Engineer</div>
+            <div class="job-salary">💰 Salary: ₹18000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Mechanical Engineer')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Banking (Sales/Sitting)</div>
+            <div class="job-salary">💰 Salary: ₹18000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Banking (Sales/Sitting)')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Video Editor</div>
+            <div class="job-salary">💰 Salary: ₹13000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Video Editor')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Sales/ Showrooms</div>
+            <div class="job-salary">💰 Salary: ₹14000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Sales/ Showrooms')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Computer Operator</div>
+            <div class="job-salary">💰 Salary: ₹30000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Computer Operator')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 DTP Operator</div>
+            <div class="job-salary">💰 Salary: ₹32000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('DTP Operator')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 House Keeping</div>
+            <div class="job-salary">💰 Salary: ₹13000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('House Keeping')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Office Peon</div>
+            <div class="job-salary">💰 Salary: ₹28000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Office Peon')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Credit Card</div>
+            <div class="job-salary">💰 Salary: ₹34000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Credit Card')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 HR Manager</div>
+            <div class="job-salary">💰 Salary: ₹25000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('HR Manager')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Receptionist</div>
+            <div class="job-salary">💰 Salary: ₹14000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Receptionist')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Training Manager</div>
+            <div class="job-salary">💰 Salary: ₹14000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Training Manager')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Team Manager</div>
+            <div class="job-salary">💰 Salary: ₹27000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Team Manager')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Sales Executive</div>
+            <div class="job-salary">💰 Salary: ₹23000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Sales Executive')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Web Designer</div>
+            <div class="job-salary">💰 Salary: ₹11000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Web Designer')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Fitter</div>
+            <div class="job-salary">💰 Salary: ₹33000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Fitter')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Cook</div>
+            <div class="job-salary">💰 Salary: ₹12000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Cook')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Office Assistant</div>
+            <div class="job-salary">💰 Salary: ₹25000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Office Assistant')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Office Boy</div>
+            <div class="job-salary">💰 Salary: ₹32000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Office Boy')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Graphic Designer</div>
+            <div class="job-salary">💰 Salary: ₹13000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Graphic Designer')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Security Guard</div>
+            <div class="job-salary">💰 Salary: ₹20000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Security Guard')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Civil Engineer</div>
+            <div class="job-salary">💰 Salary: ₹19000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Civil Engineer')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Welder</div>
+            <div class="job-salary">💰 Salary: ₹11000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Welder')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Ground Staff</div>
+            <div class="job-salary">💰 Salary: ₹16000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Ground Staff')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Hospitality</div>
+            <div class="job-salary">💰 Salary: ₹23000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Hospitality')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Cabin Crew</div>
+            <div class="job-salary">💰 Salary: ₹14000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Cabin Crew')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Field Work</div>
+            <div class="job-salary">💰 Salary: ₹26000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Field Work')">ℹ️ More Info</a>
+        </div>
+    
+        <div class="job-card">
+            <div class="job-title">💼 Manager</div>
+            <div class="job-salary">💰 Salary: ₹26000/month</div>
+            <a class="btn btn-pdf" href="https://wa.me/919864779446?text=Send%20PDF%20this%20%2B91%2098647%2079446" target="_blank">📄 Send PDF</a>
+            <a class="btn btn-info" href="javascript:void(0);" onclick="showInfo('Manager')">ℹ️ More Info</a>
+        </div>
+    
+    </div>
+</body>
+</html>
